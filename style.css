@@ -1,0 +1,47 @@
+body {
+    background-color: #2F4F4F; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte escolhida */
+    display: flex; /* Flexbox para centralização */
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    height: 100vh; /* Altura total da viewport */
+    margin: 0; /* Remove margens padrão */
+}
+
+button {
+    background-color: #FF4500; /* Cor de fundo vibrante para os botões */
+    color: white; /* Cor do texto dos botões */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte dos botões */
+    border: none; /* Remove bordas padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin: 10px; /* Espaçamento externo */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave de cor */
+}
+
+button:hover {
+    background-color: #FF6347; /* Cor de fundo ao passar o mouse sobre o botão */
+}
+
+.passo {
+    display: none; /* Oculta todos os passos por padrão */
+}
+
+.passo.ativo {
+    display: block; /* Mostra o passo ativo */
+}
+
+main {
+    text-align: center; /* Centraliza o texto */
+    max-width: 80%; /* Largura máxima para o conteúdo principal */
+}
+
+img {
+    max-width: 60%; /* Define uma largura máxima menor para as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    border: 5px solid #FF4500; /* Adiciona uma borda vibrante ao redor das imagens */
+    border-radius: 10px; /* Bordas arredondadas nas imagens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra suave para destacar as imagens */
+}
